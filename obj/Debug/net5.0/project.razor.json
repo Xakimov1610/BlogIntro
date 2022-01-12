@@ -15619,6 +15619,11 @@
   "RootNamespace": "blogs",
   "Documents": [
     {
+      "FilePath": "/Users/xakimov/Dev/Csharp/blogs/Views/Blogs/Post.cshtml",
+      "TargetPath": "Views\\Blogs\\Post.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/xakimov/Dev/Csharp/blogs/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -15649,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/xakimov/Dev/Csharp/blogs/Views/Blogs/GetBlogs.cshtml",
+      "TargetPath": "Views\\Blogs\\GetBlogs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/xakimov/Dev/Csharp/blogs/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15661,11 +15671,6 @@
     {
       "FilePath": "/Users/xakimov/Dev/Csharp/blogs/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/xakimov/Dev/Csharp/blogs/Views/Blogs/GetPosts.cshtml",
-      "TargetPath": "Views\\Blogs\\GetPosts.cshtml",
       "FileKind": "mvc"
     }
   ],

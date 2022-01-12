@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Blogs.ViewModels
+namespace blogs.ViewModels
 {
     public class BlogsViewModel
     {
