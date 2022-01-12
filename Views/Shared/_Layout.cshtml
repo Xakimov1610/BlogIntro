@@ -5,13 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - intro</title>
-    
+
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/Blogs.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/blogs.styles.css" asp-append-version="true" />
    
     
-    <link rel="stylesheet" href="~/lib/bootstrap/quilljs/quill.snow.css"/>
-    <link rel="stylesheet" href="~/lib/bootstrap/quilljs/quill.bubble.css"/>
+    <link rel="stylesheet" href="~/lib/quilljs/quill.snow.css"/>
+    <link rel="stylesheet" href="~/lib/quilljs/quill.bubble.css"/>
 
     <environment include="Development">
         <link href="~/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -24,13 +24,14 @@
 </head>
 
 <body class="bg-light">
+
     @Html.Partial("_HeaderPartial")
    
     @RenderBody()
 
     @await RenderSectionAsync("Scripts", required: false)
 
-    <script src="~/lib/bootstrap/quilljs/quill.min.js" ></script>
+    <script src="~/lib/quilljs/quill.min.js" ></script>
 
     <script src="~/js/site.js" asp-append-version="true"></script>
 

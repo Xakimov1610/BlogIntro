@@ -1,9 +1,4 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
-
-var toolbarOptions = [
+﻿var toolbarOptions = [
     ['bold', 'italic', 'underline', 'strike'],        // toggled buttons
     ['blockquote', 'code-block', 'image'],
   
@@ -32,10 +27,17 @@ var toolbarOptions = [
     theme: 'bubble'
   });
   
-  var quill = new Quill('#title-editor', {
-    modules: {
-      toolbar: toolbarOptions
-    },
-    placeholder: 'Title..',
-    theme: 'bubble'
-  });
+  
+  document.addEventListener('DOMContentLoaded', function(event) {
+  
+  
+    var content = document.getElementById('content');
+    
+    quill.container.firstChild.innerHTML = content.value
+  
+    var form = document.getElementById('form');
+    form.onsubmit = function () {
+        // Populate hidden form on submit
+        content.value = quill.root.innerHTML;
+    };
+  })
